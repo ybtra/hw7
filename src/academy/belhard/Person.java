@@ -3,9 +3,9 @@ package academy.belhard;
 import java.util.Objects;
 
 final public class Person {
-    private String firstName;
-    private String lastName;
-    private Gender gender;
+    final private String firstName;
+    final private String lastName;
+    final private Gender gender;
 
     public Person(String firstName, String lastName, Gender gender){
         this.firstName = firstName;
